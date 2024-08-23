@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true, // Opcional, mas recomendado para metadados
+    "strict": true, // Para habilitar verificações de tipo rigorosas
+    "module": "commonjs", // Ou "ES6", dependendo do seu ambiente
+    "outDir": "./dist" // Certifique-se de definir um diretório de saída
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
