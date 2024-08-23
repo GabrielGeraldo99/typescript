@@ -1,56 +1,56 @@
-## Aprendizado em TypeScript ##
+# Aprendizado em JavaScript - OneBitCode
 
-Neste repositório, compartilho os principais aprendizados do curso de TypeScript da OneBitCode. Aqui está um resumo dos tópicos que explorei:
+Neste repositório, compartilho os principais aprendizados do curso de JavaScript da OneBitCode. Aqui está um resumo dos tópicos que explorei:
 
-## Descrição ##
+## Introdução à Linguagem
 
-O que é TypeScript e por que usar
-TypeScript estende o JavaScript com tipagem estática, ajudando a evitar erros e a manter o código mais robusto e fácil de gerenciar.
+- **O que é uma Linguagem de Programação**: Entendi o conceito de linguagens de programação e a importância do JavaScript.
+- **JavaScript**: Introdução ao JavaScript, sua sintaxe e funcionamento básico.
+- **Tipos de Dados**: Trabalhei com tipos primitivos e objetos.
+- **Variáveis**: Declaração e uso de variáveis.
+- **Operadores e Expressões**: Utilização de operadores aritméticos, relacionais e lógicos.
+- **Comentários**: Adição de comentários para documentar o código.
+- **Comparação de Dados**: Comparação de valores e tipos de dados.
+- **Operadores Lógicos**: Aplicação de operadores lógicos para controle de fluxo.
+- **Estruturas Condicionais**: Uso de `if`, `else`, e `switch` para decisões condicionais.
+- **Estruturas de Repetição**: Laços `for` e `do while` para repetição de código.
 
-TypeScript vs. JavaScript
-Aprendi que TypeScript adiciona segurança de tipos ao JavaScript, o que facilita a identificação de problemas durante o desenvolvimento.
+## Estruturas de Dados e Funções
 
-Principais features do TypeScript
-Explorei recursos como interfaces, classes e tipagem estática, que trazem estrutura e organização ao código.
+- **Arrays e Objetos**: Manipulação de arrays e objetos para armazenar dados.
+- **Funções**: Criação, parâmetros, retorno e escopo de funções.
+- **Funções Recursivas e Anônimas**: Utilização de funções recursivas e funções sem nome.
+- **Funções de Alta Ordem**: Funções que recebem ou retornam outras funções.
+- **Objetos Globais**: Compreensão dos objetos globais disponíveis no JavaScript.
 
-Tipos Primitivos
-Trabalhei com tipos como string, number, e boolean para garantir que as variáveis armazenem dados de forma consistente.
+## DOM
 
-Inferência de tipo
-TypeScript infere automaticamente os tipos de variáveis, simplificando o código e reduzindo a necessidade de declarações explícitas.
+- **O que é DOM**: Entendimento do Document Object Model.
+- **Manipulação de Elementos**: Acesso, criação e modificação de elementos HTML.
+- **Estilos e Atributos**: Alteração de estilos e atributos dos elementos.
+- **Eventos e Formulários**: Manipulação de eventos e dados de formulários.
+- **Armazenamento no Navegador**: Uso de armazenamento local e de sessão.
 
-Configuração do compilador tsc
-Configurei o compilador TypeScript (tsc) e aprendi a usar tsconfig.json para personalizar as opções de compilação.
+## JS Moderno
 
-Tipos extras: Tuplas
-Explorei tuplas para definir arrays com tipos e tamanhos fixos, ajudando a manter o código seguro e estruturado.
+- **Versões do ECMAScript**: Novidades e recursos das versões mais recentes do ECMAScript.
+- **Template Literals e Arrow Functions**: Sintaxe moderna para strings e funções.
+- **Desestruturação e Operador Spread**: Manipulação eficiente de objetos e arrays.
+- **Rest Params e Encadeamento Opcional**: Argumentos variáveis e acesso seguro a propriedades.
+- **Módulos**: Organização de código com CommonJS e ES Modules.
+- **npm, Babel e Webpack**: Gerenciamento de pacotes, transpiração de código e empacotamento.
 
-Tipos extras: Enums
-Aprendi sobre enums para definir conjuntos de constantes com nomes significativos, melhorando a legibilidade do código.
+## POO (Programação Orientada a Objetos)
 
-Evitando tipagem
-Entendi como usar o tipo any de forma controlada para maior flexibilidade sem perder os benefícios da tipagem estática.
+- **Conceitos de POO**: Classes, instâncias, encapsulamento, herança e polimorfismo.
+- **Acessadores e Métodos Estáticos**: Uso de `get` e `set` e métodos estáticos.
 
-Declarando tipos
-Aprendi a declarar meus próprios tipos, o que permite personalizar como os dados são manipulados e utilizados.
+## Tópicos Avançados
 
-Criando tipos
-Explorei a criação de tipos personalizados usando type, trazendo flexibilidade e clareza ao código.
+- **Tratamento de Erros**: Gerenciamento de erros com `try`, `catch`, e `finally`.
+- **Expressões Regulares**: Manipulação de padrões em strings.
+- **Assincronicidade**: Trabalhar com Promises, funções `async` e `await` para operações assíncronas.
+- **Requisições HTTP e APIs RESTful**: Comunicação com servidores e consumo de APIs.
 
-Criando interfaces
-Descobri como usar interfaces para definir a estrutura de objetos, garantindo que possuam as propriedades corretas.
+**Nota**: Este é apenas um resumo dos tópicos abordados. Ainda tenho muito a aprender e praticar para me tornar mais proficiente em JavaScript. Estou sempre buscando melhorar minhas habilidades e conhecimentos na área.
 
-Omit e Pick
-Aprendi a usar Omit e Pick para criar novos tipos a partir de outros, ajustando propriedades conforme necessário.
-
-Módulos
-Trabalhei com módulos para organizar o código em partes reutilizáveis e mais fáceis de entender.
-
-Orientação a objetos no TypeScript
-Pratiquei conceitos de orientação a objetos, como classes e herança, utilizando a tipagem forte do TypeScript para criar código robusto.
-
-Generics
-Aprendi a usar generics para criar componentes flexíveis e reutilizáveis que podem lidar com qualquer tipo de dado.
-
-Decorators
-Explorei o uso de decorators para adicionar funcionalidades a classes e métodos de forma modular e organizada.
